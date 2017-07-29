@@ -1,0 +1,33 @@
+{
+  "name": "cqrs-command-bus",
+  "version": "0.0.0",
+  "description": "A command bus for Domain Driven Design.",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodeunit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Dallas62/cqrs-command-bus.git"
+  },
+  "keywords": [
+    "cqrs",
+    "command",
+    "bus",
+    "domain",
+    "driven",
+    "design",
+    "ddd"
+  ],
+  "author": "Tacyniak Boris <boris.tacyniak@free.fr> (https://www.tacyniak.fr/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dallas62/cqrs-command-bus/issues"
+  },
+  "homepage": "https://github.com/Dallas62/cqrs-command-bus#readme",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-env": "^1.5.2",
+    "nodeunit": "^0.11.1"
+  }
+}
