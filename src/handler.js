@@ -3,7 +3,7 @@ const Command = require('./command');
 
 class Handler {
     constructor(name, handler) {
-        if('string' !== typeof name || name.length() <= 0) {
+        if('string' !== typeof name || name.length <= 0) {
             throw new Error('Invalid command name.');
         }
 

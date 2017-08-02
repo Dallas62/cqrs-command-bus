@@ -22,7 +22,7 @@ class Bus
     }
 
     registerHandler(name, handler) {
-        if('string' !== typeof name || name.length() <= 0) {
+        if('string' !== typeof name || name.length <= 0) {
             throw new Error('Invalid command name.');
         }
 
