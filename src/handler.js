@@ -1,5 +1,5 @@
 
-const Command = require('command');
+const Command = require('./command');
 
 class Handler {
     constructor(name, handler) {

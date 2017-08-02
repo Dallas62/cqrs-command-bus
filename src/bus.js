@@ -25,7 +25,7 @@ class Bus
         }
 
         if('function' !== typeof handler) {
-            throw new Error('Invalid callback function.');
+            throw new Error('Invalid handler function.');
         }
 
         this._bus.on(name, function(command) {
