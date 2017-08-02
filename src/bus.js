@@ -1,5 +1,7 @@
 const EventEmitter = require('events');
 
+const Command = require('./command');
+
 
 // Generate the "next" function
 function generateNext(command) {
