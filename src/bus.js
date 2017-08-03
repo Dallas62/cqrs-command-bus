@@ -33,7 +33,7 @@ class Bus
         this._bus.on(name, function(command) {
             const next = generateNext(command);
 
-            handler(command, next);
+            handler(command.content, next);
         });
     }
 

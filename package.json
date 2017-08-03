@@ -1,6 +1,6 @@
 {
   "name": "cqrs-command-bus",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "A command bus for Domain Driven Design.",
   "main": "index.js",
   "scripts": {
